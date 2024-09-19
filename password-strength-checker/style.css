@@ -1,0 +1,34 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#password{
+    width: 350px;
+    padding: 12px;
+    border-radius: 15px ;
+    border: none;
+    font-size: 30px;
+    border: 1px solid #C3D5ED;
+    box-shadow: 0 4px 10px #d4d4f9;
+
+}
+#password:focus{
+    outline: none;
+}
+.output{
+    margin: 10px;
+    font-weight: bold;
+    font-family:  sans-serif;
+}
+@media screen and (max-width: 430px) {
+    body{
+        background:#E5E5EA;
+    }
+}
